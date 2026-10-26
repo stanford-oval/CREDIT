@@ -1,0 +1,12 @@
+CREDIT: Counterfactual Relabeling for Dependence on Information Training
+Copyright 2026 Zikai Zhou, Jiacheng Sang, Yilin Xu, Yufei Jin, and Monica S. Lam
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The released data is derived from the following third-party datasets and model outputs, which remain under their own
+licenses and terms. Users must comply with them.
+  - sycophancy-eval (Sharma et al.), built on TriviaQA and TruthfulQA questions
+  - TriviaQA (Joshi et al.), MMLU (Hendrycks et al.), ARC (Clark et al.), CommonsenseQA (Talmor et al.)
+  - FaithEval (Ming et al.), RAMDocs (Wang et al.)
+  - Outputs of Qwen3, DeepSeek-R1-Distill, and commercial API models (OpenAI, Anthropic, Google, DeepSeek), released for
+    research on model behavior; their use is subject to the respective providers' terms.

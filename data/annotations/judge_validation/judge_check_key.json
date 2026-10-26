@@ -1,0 +1,730 @@
+[
+ {
+  "i": 0,
+  "group": "frontier",
+  "model": "api2-gpt-5-mini",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 1,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_meta",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 2,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_peer",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 3,
+  "group": "frontier",
+  "model": "api2-gpt-5-mini",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 4,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_cred",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 5,
+  "group": "frontier",
+  "model": "api2-gemini-3.1-pro-preview",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 6,
+  "group": "qwen8b-credit",
+  "model": "rely-cfdisc4L",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 7,
+  "group": "frontier",
+  "model": "api2-gpt-5-mini",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 8,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_meta",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 9,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_sys",
+  "judge": false,
+  "flipped": true
+ },
+ {
+  "i": 10,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 11,
+  "group": "frontier",
+  "model": "api2-claude-haiku-4-5",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 12,
+  "group": "frontier",
+  "model": "api-gpt-5-mini",
+  "bench": "syco",
+  "judge": true,
+  "flipped": true
+ },
+ {
+  "i": 13,
+  "group": "qwen14b",
+  "model": "rely-base",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 14,
+  "group": "frontier",
+  "model": "api2-gpt-5",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 15,
+  "group": "qwen14b",
+  "model": "rely-base",
+  "bench": "syco",
+  "judge": false,
+  "flipped": true
+ },
+ {
+  "i": 16,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 17,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_cred",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 18,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_sys",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 19,
+  "group": "qwen14b",
+  "model": "rely-base",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 20,
+  "group": "qwen8b-untrained",
+  "model": "rely-base",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 21,
+  "group": "frontier",
+  "model": "api-gpt-5-nano",
+  "bench": "x_sys",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 22,
+  "group": "qwen8b-credit",
+  "model": "rely-cfdisc4L",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 23,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_peer",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 24,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_meta",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 25,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 26,
+  "group": "qwen8b-untrained",
+  "model": "rely-base",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 27,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_cred",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 28,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_sys",
+  "judge": true,
+  "flipped": true
+ },
+ {
+  "i": 29,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_cred",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 30,
+  "group": "qwen8b-untrained",
+  "model": "rely-base",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 31,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 32,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_peer",
+  "judge": false,
+  "flipped": true
+ },
+ {
+  "i": 33,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_peer",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 34,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_meta",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 35,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_peer",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 36,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_meta",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 37,
+  "group": "frontier",
+  "model": "api2-gpt-5-nano",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 38,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_peer",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 39,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 40,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 41,
+  "group": "frontier",
+  "model": "api2-claude-haiku-4-5",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 42,
+  "group": "frontier",
+  "model": "api2-claude-haiku-4-5",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 43,
+  "group": "qwen14b",
+  "model": "x-cfdisc4L",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 44,
+  "group": "qwen8b-untrained",
+  "model": "rely-base",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 45,
+  "group": "frontier",
+  "model": "api2-claude-haiku-4-5",
+  "bench": "syco",
+  "judge": false,
+  "flipped": true
+ },
+ {
+  "i": 46,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_cred",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 47,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_cred",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 48,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_peer",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 49,
+  "group": "qwen14b",
+  "model": "rely-base",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 50,
+  "group": "frontier",
+  "model": "api2-gpt-5-mini",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 51,
+  "group": "frontier",
+  "model": "api2-gpt-5-mini",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 52,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 53,
+  "group": "frontier",
+  "model": "api2-gpt-5-mini",
+  "bench": "syco",
+  "judge": false,
+  "flipped": true
+ },
+ {
+  "i": 54,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 55,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_sys",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 56,
+  "group": "frontier",
+  "model": "api2-gpt-5-mini",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 57,
+  "group": "qwen14b",
+  "model": "rely-cfdisc4L",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 58,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_cred",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 59,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_peer",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 60,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_cred",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 61,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_peer",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 62,
+  "group": "frontier",
+  "model": "api2-gpt-5-mini",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 63,
+  "group": "qwen14b",
+  "model": "rely-base",
+  "bench": "syco",
+  "judge": false,
+  "flipped": true
+ },
+ {
+  "i": 64,
+  "group": "qwen14b",
+  "model": "rely-base",
+  "bench": "syco",
+  "judge": false,
+  "flipped": true
+ },
+ {
+  "i": 65,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_cred",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 66,
+  "group": "frontier",
+  "model": "api2-gpt-5-mini",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 67,
+  "group": "frontier",
+  "model": "api2-claude-haiku-4-5",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 68,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_tool",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 69,
+  "group": "frontier",
+  "model": "api2-claude-haiku-4-5",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 70,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_peer",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 71,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_cred",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 72,
+  "group": "frontier",
+  "model": "api2-claude-haiku-4-5",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 73,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_sys",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 74,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_cred",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 75,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 76,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_cred",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 77,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_meta",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 78,
+  "group": "qwen8b-credit",
+  "model": "x-cfdisc4L",
+  "bench": "x_cred",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 79,
+  "group": "frontier",
+  "model": "api2-claude-haiku-4-5",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 80,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 81,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_tool",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 82,
+  "group": "qwen8b-untrained",
+  "model": "x-base",
+  "bench": "x_peer",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 83,
+  "group": "qwen14b",
+  "model": "x-cfdisc4L",
+  "bench": "x_peer",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 84,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_peer",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 85,
+  "group": "frontier",
+  "model": "api2-gpt-5-mini",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 86,
+  "group": "qwen14b",
+  "model": "x-base",
+  "bench": "x_meta",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 87,
+  "group": "qwen8b-untrained",
+  "model": "rely-base",
+  "bench": "syco",
+  "judge": false,
+  "flipped": false
+ },
+ {
+  "i": 88,
+  "group": "qwen14b",
+  "model": "x-cfdisc4L",
+  "bench": "x_meta",
+  "judge": true,
+  "flipped": true
+ },
+ {
+  "i": 89,
+  "group": "frontier",
+  "model": "api2-gemini-3.1-pro-preview",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ },
+ {
+  "i": 90,
+  "group": "frontier",
+  "model": "api2-gpt-5-mini",
+  "bench": "syco",
+  "judge": true,
+  "flipped": false
+ }
+]

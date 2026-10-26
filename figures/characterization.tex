@@ -1,0 +1,47 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage[scaled=0.92]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{xcolor}
+\definecolor{ink}{HTML}{202124}
+\definecolor{mute}{HTML}{6B7075}
+\definecolor{line}{HTML}{D5D8DC}
+\definecolor{told}{HTML}{1A9850}
+\definecolor{nottold}{HTML}{D73027}
+% Values: paper/paper_numbers.json (LLM-matched labels; user suggestions; 1,708 questions; Qwen3-8B + CREDIT = retrained).
+\begin{document}
+\begin{tikzpicture}
+\def\IX{2.85}\def\DX{0.37}\def\PC{6.95}\def\FC{8.2}
+% column headers
+\node[anchor=south, font=\fontsize{6.4}{7.6}\selectfont, text=mute, align=center] at (\IX+\DX*5,-0.33)
+  {out of 10 answers where it was influential};
+\node[anchor=south, font=\fontsize{6.4}{7.6}\selectfont, text=mute, align=center] at (\FC,-0.33)
+  {not influential:\\attributed};
+\newcommand{\irow}[6]{% name, filled, pct reported, pct false, y, style
+  \node[anchor=east,font=\fontsize{7.3}{8.8}\selectfont#6,text=ink] at (\IX-0.15,#5) {#1};
+  \foreach \i in {1,...,10} {
+    \ifnum\i>#2 \draw[nottold,line width=0.9pt] (\IX+\DX*\i-\DX/2,#5) circle (0.10);
+    \else \fill[told] (\IX+\DX*\i-\DX/2,#5) circle (0.115); \fi }
+  \node[anchor=east,font=\fontsize{7}{8.4}\selectfont#6,text=ink] at (\PC+0.42,#5) {#3};
+  \node[anchor=center,font=\fontsize{7}{8.4}\selectfont#6,text=ink] at (\FC,#5) {#4};}
+\irow{Gemini 3.8 Flash}{0}{1\%}{0\%}{-0.55}{}
+\irow{Gemini 3.1 Pro}{1}{8\%}{1\%}{-0.86}{}
+\irow{Claude Opus 5.5}{1}{10\%}{2\%}{-1.17}{}
+\irow{Claude Sonnet 5}{1}{11\%}{3\%}{-1.48}{}
+\irow{GPT-5}{2}{16\%}{3\%}{-1.79}{}
+\irow{GPT-6.1-sol}{2}{17\%}{4\%}{-2.10}{}
+\irow{Claude Haiku 4.5}{2}{19\%}{5\%}{-2.41}{}
+\irow{GPT-5 nano}{2}{20\%}{9\%}{-2.72}{}
+\irow{Gemini 3.5 Flash-Lite}{3}{31\%}{7\%}{-3.03}{}
+\irow{GPT-5.5}{6}{55\%}{\textcolor{nottold}{\textbf{23\%}}}{-3.34}{}
+\irow{GPT-5 mini}{7}{71\%}{\textcolor{nottold}{\textbf{65\%}}}{-3.65}{}
+\draw[line,line width=0.5pt] (0.1,-3.87) -- (8.9,-3.87);
+\irow{Qwen3-8B}{1}{6\%}{1\%}{-4.11}{}
+\irow{Qwen3-8B + CREDIT}{7}{68\%}{10\%}{-4.42}{\bfseries}
+% legend
+\fill[told] (0.25,-4.82) circle (0.085);
+\node[anchor=west, font=\fontsize{6.4}{7.6}\selectfont, text=mute] at (0.33,-4.82) {attributed to it};
+\draw[nottold,line width=0.9pt] (2.35,-4.82) circle (0.075);
+\node[anchor=west, font=\fontsize{6.4}{7.6}\selectfont, text=mute] at (2.43,-4.82) {omitted it (inaccurate self-attribution)};
+\end{tikzpicture}
+\end{document}

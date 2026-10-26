@@ -1,0 +1,12 @@
+# Core (scoring, data building, API judging): CPU only
+datasets>=2.19
+requests>=2.31
+numpy>=1.26
+scikit-learn>=1.5
+# Generation and training (GPU): the versions used for the paper
+torch==2.13.0
+transformers==5.17.0
+vllm==0.30.0
+peft==0.21.0
+trl==1.14.0
+accelerate>=0.30

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "credit"
+version = "0.1.0"
+description = "CREDIT: counterfactual training for self-attribution in language models"
+readme = "README.md"
+authors = [{name = "Zikai Zhou"}, {name = "Jiacheng Sang"}, {name = "Yilin Xu"}, {name = "Yufei Jin"}, {name = "Monica S. Lam"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dependencies = ["datasets>=2.19", "requests>=2.31", "numpy>=1.26", "scikit-learn>=1.5"]
+
+[project.optional-dependencies]
+# versions used for the paper; transformers>=5 is required (warmup_steps=0.05 is read as a 5% ratio)
+gpu = ["torch==2.13.0", "transformers==5.17.0", "vllm==0.30.0", "peft==0.21.0", "trl==1.14.0", "accelerate>=0.30"]
+
+[tool.setuptools]
+packages = ["credit"]

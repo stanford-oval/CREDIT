@@ -1,0 +1,602 @@
+[
+ {
+  "i": 0,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 1,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-claude-sonnet-5:reask"
+ },
+ {
+  "i": 2,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "api2-gpt-5-mini:reask"
+ },
+ {
+  "i": 3,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "apiq2-base:own"
+ },
+ {
+  "i": 4,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "rely-base:own"
+ },
+ {
+  "i": 5,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 6,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-cfdisc4L:reask"
+ },
+ {
+  "i": 7,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gemini-3.5-flash-lite:reask"
+ },
+ {
+  "i": 8,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 9,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "apiq2-cfdisc4L:own"
+ },
+ {
+  "i": 10,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-gemini-3.5-flash-lite:reask"
+ },
+ {
+  "i": 11,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5-nano:reask"
+ },
+ {
+  "i": 12,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-gpt-5:reask"
+ },
+ {
+  "i": 13,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 14,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "api2-gpt-5:own"
+ },
+ {
+  "i": 15,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5:reask"
+ },
+ {
+  "i": 16,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 17,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-claude-haiku-4-5:own"
+ },
+ {
+  "i": 18,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "apiq2-cfdisc4L:reask"
+ },
+ {
+  "i": 19,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 20,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "rely-base:reask"
+ },
+ {
+  "i": 21,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-gemini-3.5-flash-lite:reask"
+ },
+ {
+  "i": 22,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-claude-haiku-4-5:reask"
+ },
+ {
+  "i": 23,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "rely-base:reask"
+ },
+ {
+  "i": 24,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gemini-3.5-flash-lite:reask"
+ },
+ {
+  "i": 25,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-claude-haiku-4-5:reask"
+ },
+ {
+  "i": 26,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5:reask"
+ },
+ {
+  "i": 27,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-deepseek-v4.1-flash:reask"
+ },
+ {
+  "i": 28,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "apiq2-cfdisc4L:reask"
+ },
+ {
+  "i": 29,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5-mini:reask"
+ },
+ {
+  "i": 30,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "api2-claude-haiku-4-5:reask"
+ },
+ {
+  "i": 31,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-claude-haiku-4-5:reask"
+ },
+ {
+  "i": 32,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-claude-sonnet-5:reask"
+ },
+ {
+  "i": 33,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "apiq2-base:own"
+ },
+ {
+  "i": 34,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 35,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-claude-sonnet-5:reask"
+ },
+ {
+  "i": 36,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 37,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 38,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-gemini-3.1-pro-preview:reask"
+ },
+ {
+  "i": 39,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5-nano:own"
+ },
+ {
+  "i": 40,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 41,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gemini-3.1-pro-preview:own"
+ },
+ {
+  "i": 42,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "api2-gpt-5-mini:reask"
+ },
+ {
+  "i": 43,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-claude-sonnet-5:reask"
+ },
+ {
+  "i": 44,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "apiq2-base:own"
+ },
+ {
+  "i": 45,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-gpt-5-nano:reask"
+ },
+ {
+  "i": 46,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 47,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5-nano:reask"
+ },
+ {
+  "i": 48,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-cfdisc4L:reask"
+ },
+ {
+  "i": 49,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-gpt-5-mini:own"
+ },
+ {
+  "i": 50,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-gemini-3.1-pro-preview:reask"
+ },
+ {
+  "i": 51,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5-nano:own"
+ },
+ {
+  "i": 52,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-cfdisc4L:reask"
+ },
+ {
+  "i": 53,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-gemini-3.1-pro-preview:reask"
+ },
+ {
+  "i": 54,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 55,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "api2-gpt-5:own"
+ },
+ {
+  "i": 56,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5-mini:reask"
+ },
+ {
+  "i": 57,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-claude-sonnet-5:reask"
+ },
+ {
+  "i": 58,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-deepseek-v4.1-flash:reask"
+ },
+ {
+  "i": 59,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5-mini:reask"
+ },
+ {
+  "i": 60,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:own"
+ },
+ {
+  "i": 61,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:own"
+ },
+ {
+  "i": 62,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-claude-haiku-4-5:reask"
+ },
+ {
+  "i": 63,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 64,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5:reask"
+ },
+ {
+  "i": 65,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-deepseek-v4.1-flash:reask"
+ },
+ {
+  "i": 66,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-deepseek-v4.1-flash:reask"
+ },
+ {
+  "i": 67,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 68,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 69,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5-mini:reask"
+ },
+ {
+  "i": 70,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "api2-claude-haiku-4-5:reask"
+ },
+ {
+  "i": 71,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "apiq2-cfdisc4L:own"
+ },
+ {
+  "i": 72,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5-nano:own"
+ },
+ {
+  "i": 73,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-claude-haiku-4-5:own"
+ },
+ {
+  "i": 74,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-deepseek-v4.1-flash:reask"
+ },
+ {
+  "i": 75,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-claude-haiku-4-5:reask"
+ },
+ {
+  "i": 76,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gemini-3.5-flash-lite:reask"
+ },
+ {
+  "i": 77,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "api2-claude-haiku-4-5:own"
+ },
+ {
+  "i": 78,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-gpt-5-nano:reask"
+ },
+ {
+  "i": 79,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-claude-haiku-4-5:own"
+ },
+ {
+  "i": 80,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-gpt-5:own"
+ },
+ {
+  "i": 81,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:own"
+ },
+ {
+  "i": 82,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "rely-base:own"
+ },
+ {
+  "i": 83,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gemini-3.5-flash-lite:reask"
+ },
+ {
+  "i": 84,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "api2-gpt-5:own"
+ },
+ {
+  "i": 85,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-gemini-3.1-pro-preview:reask"
+ },
+ {
+  "i": 86,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "api2-claude-haiku-4-5:reask"
+ },
+ {
+  "i": 87,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "api2-deepseek-v4.1-flash:own"
+ },
+ {
+  "i": 88,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-claude-haiku-4-5:reask"
+ },
+ {
+  "i": 89,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "api2-deepseek-v4.1-flash:reask"
+ },
+ {
+  "i": 90,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "api2-gpt-5:reask"
+ },
+ {
+  "i": 91,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 92,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:reask"
+ },
+ {
+  "i": 93,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-cfdisc4L:reask"
+ },
+ {
+  "i": 94,
+  "judge": true,
+  "group": "TriviaQA",
+  "origin": "apiq2-cfdisc4L:own"
+ },
+ {
+  "i": 95,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "apiq2-cfdisc4L:reask"
+ },
+ {
+  "i": 96,
+  "judge": true,
+  "group": "TruthfulQA",
+  "origin": "apiq2-cfdisc4L:own"
+ },
+ {
+  "i": 97,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "apiq2-base:own"
+ },
+ {
+  "i": 98,
+  "judge": false,
+  "group": "TriviaQA",
+  "origin": "api2-gemini-3.1-pro-preview:reask"
+ },
+ {
+  "i": 99,
+  "judge": false,
+  "group": "TruthfulQA",
+  "origin": "api2-gemini-3.5-flash-lite:reask"
+ }
+]

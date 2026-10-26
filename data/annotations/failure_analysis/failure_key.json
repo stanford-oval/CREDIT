@@ -1,0 +1,802 @@
+[
+ {
+  "i": 0,
+  "err": "false attribution",
+  "bench": "x_tool",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 1,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 2,
+  "err": "omission",
+  "bench": "x_tool",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 3,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 4,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 5,
+  "err": "false attribution",
+  "bench": "x_peer",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 6,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 7,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 8,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 9,
+  "err": "omission",
+  "bench": "x_tool",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 10,
+  "err": "omission",
+  "bench": "x_cred",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 11,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 12,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 13,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 14,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 15,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 16,
+  "err": "false attribution",
+  "bench": "x_cred",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 17,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 18,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 19,
+  "err": "omission",
+  "bench": "x_sys",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 20,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 21,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test",
+  "tag": "rely-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 22,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 23,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 24,
+  "err": "false attribution",
+  "bench": "x_peer",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 25,
+  "err": "false attribution",
+  "bench": "x_peer",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 26,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 27,
+  "err": "omission",
+  "bench": "x_tool",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 28,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test",
+  "tag": "rely-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 29,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 30,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 31,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 32,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 33,
+  "err": "false attribution",
+  "bench": "x_sys",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 34,
+  "err": "omission",
+  "bench": "x_meta",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 35,
+  "err": "false attribution",
+  "bench": "x_cred",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 36,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 37,
+  "err": "omission",
+  "bench": "x_meta",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 38,
+  "err": "false attribution",
+  "bench": "x_peer",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 39,
+  "err": "omission",
+  "bench": "x_sys",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 40,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 41,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test",
+  "tag": "rely-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 42,
+  "err": "omission",
+  "bench": "x_meta",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 43,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test",
+  "tag": "rely-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 44,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 45,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test",
+  "tag": "rely-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 46,
+  "err": "false attribution",
+  "bench": "x_peer",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 47,
+  "err": "false attribution",
+  "bench": "x_peer",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 48,
+  "err": "false attribution",
+  "bench": "x_meta",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 49,
+  "err": "false attribution",
+  "bench": "x_cred",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 50,
+  "err": "false attribution",
+  "bench": "x_tool",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 51,
+  "err": "omission",
+  "bench": "x_meta",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 52,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 53,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 54,
+  "err": "false attribution",
+  "bench": "x_tool",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 55,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 56,
+  "err": "omission",
+  "bench": "x_sys",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 57,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 58,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 59,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 60,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 61,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 62,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 63,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 64,
+  "err": "false attribution",
+  "bench": "x_tool",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 65,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 66,
+  "err": "omission",
+  "bench": "x_peer",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 67,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 68,
+  "err": "omission",
+  "bench": "x_cred",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 69,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 70,
+  "err": "false attribution",
+  "bench": "x_peer",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 71,
+  "err": "false attribution",
+  "bench": "x_tool",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 72,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 73,
+  "err": "omission",
+  "bench": "x_meta",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 74,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test",
+  "tag": "rely-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 75,
+  "err": "false attribution",
+  "bench": "x_meta",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 76,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test",
+  "tag": "rely-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 77,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 78,
+  "err": "false attribution",
+  "bench": "x_peer",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 79,
+  "err": "false attribution",
+  "bench": "x_meta",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 80,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 81,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 82,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 83,
+  "err": "omission",
+  "bench": "x_sys",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 84,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 85,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 86,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 87,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 88,
+  "err": "omission",
+  "bench": "x_cred",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 89,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 90,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 91,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 92,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 93,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 94,
+  "err": "omission",
+  "bench": "x_sys",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 95,
+  "err": "omission",
+  "bench": "syco",
+  "split": "test",
+  "tag": "rely-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 96,
+  "err": "omission",
+  "bench": "x_tool",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 97,
+  "err": "omission",
+  "bench": "x_sys",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "true"
+ },
+ {
+  "i": 98,
+  "err": "omission",
+  "bench": "x_meta",
+  "split": "test",
+  "tag": "x-cfdisc4L",
+  "kind": "false"
+ },
+ {
+  "i": 99,
+  "err": "false attribution",
+  "bench": "syco",
+  "split": "test2",
+  "tag": "t2-cfdisc4L",
+  "kind": "true"
+ }
+]
