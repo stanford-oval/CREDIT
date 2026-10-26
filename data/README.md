@@ -23,7 +23,7 @@ paper's numbers are hosted on OSF: https://osf.io/zm5ae/. `scripts/download_bund
 
 | Archive | Contents | Size |
 |---|---|---|
-| `credit_outputs.tar.gz` | all model outputs behind the paper's numbers, for Qwen3-8B, Qwen3-14B, DeepSeek-R1-Distill-Qwen-7B, and 12 frontier models: responses, `RELIED ON` lines and judge decisions, re-asked answers, and LLM-judged influence labels (`llm_adopt_<split>.json`) | 144 MB |
+| `credit_outputs.tar.gz` | all model outputs behind the paper's numbers, for Qwen3-8B, Qwen3-14B, DeepSeek-R1-Distill-Qwen-7B, 11 frontier models, and one large open model (DeepSeek-V4.1-Flash): responses, `RELIED ON` lines and judge decisions, re-asked answers, and LLM-judged influence labels (`llm_adopt_<split>.json`) | 144 MB |
 | `credit_outputs_extra.tar.gz` | outputs added after the first release: VFT with the attribution statement excluded from the loss (`results/rely-vftmaskL`, `results/t2-vftmaskL`) and DeepSeek-R1-Distill-Llama-8B, untrained and CREDIT, on the test, fresh, large, and transfer sets (`results_r1l/`) | 14 MB |
 | `credit_items.tar.gz` | every evaluation item file: validation, test, fresh, large sets; held-out types (templates A, B, neutral); competing information (two and three pieces) | 2.5 MB |
 | `credit_summaries.tar.gz` | per-run summary scores (JSON) | 32 KB |
