@@ -3,6 +3,9 @@
 Code and data for **"Did the Model Use That? Counterfactual Training Boosts Self-Attribution in Language Models"**
 by Zikai Zhou, Jiacheng Sang, Yilin Xu, Yufei Jin, and Monica S. Lam.
 
+Paper: [arXiv 2610.35295](https://arxiv.org/abs/2610.35295) · [Hugging Face paper page](https://huggingface.co/papers/2610.35295) ·
+Models and data on the Hugging Face Hub (below).
+
 When a model's answer agrees with information a user supplied (their own suggestion, a retrieved document, a tool's
 output), the user cannot tell from the answer whether the model confirmed it or merely echoed it. We call stating which
 external information an answer depends on **self-attribution**, and measure it with a removal test: a piece of
@@ -87,6 +90,26 @@ used for the paper; Transformers 5 or later is required (training reads `warmup_
 Everything behind the paper's numbers is released: evaluation items, all model outputs with judge decisions and
 influence labels, summary tables, and the human annotations. The annotations are in this repository; the larger files
 are on OSF (`data/README.md`), together with the training sets and the LoRA adapters of the four CREDIT models.
+
+### On the Hugging Face Hub
+
+The four CREDIT LoRA adapters and the evaluation and training sets are also on the Hub:
+
+| Model | Base model |
+|---|---|
+| [CyrusZhouzk/CREDIT-Qwen3-8B](https://huggingface.co/CyrusZhouzk/CREDIT-Qwen3-8B) | [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) |
+| [CyrusZhouzk/CREDIT-Qwen3-14B](https://huggingface.co/CyrusZhouzk/CREDIT-Qwen3-14B) | [Qwen/Qwen3-14B](https://huggingface.co/Qwen/Qwen3-14B) |
+| [CyrusZhouzk/CREDIT-DeepSeek-R1-Distill-Qwen-7B](https://huggingface.co/CyrusZhouzk/CREDIT-DeepSeek-R1-Distill-Qwen-7B) | [deepseek-ai/DeepSeek-R1-Distill-Qwen-7B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) |
+| [CyrusZhouzk/CREDIT-DeepSeek-R1-Distill-Llama-8B](https://huggingface.co/CyrusZhouzk/CREDIT-DeepSeek-R1-Distill-Llama-8B) | [deepseek-ai/DeepSeek-R1-Distill-Llama-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B) |
+
+Dataset: [CyrusZhouzk/CREDIT](https://huggingface.co/datasets/CyrusZhouzk/CREDIT) (evaluation items of every set, and
+the relabeled training set of each model; the model cards show how to load an adapter with PEFT).
+
+```python
+from datasets import load_dataset
+test = load_dataset("CyrusZhouzk/CREDIT", "main", split="test")
+train = load_dataset("CyrusZhouzk/CREDIT", "train_qwen3_8b", split="train")
+```
 
 ## License
 
